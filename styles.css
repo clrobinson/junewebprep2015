@@ -1,0 +1,131 @@
+* {
+	font-family: Verdana, sans-serif;
+}
+li {
+	background: none;
+	margin-bottom: 30px;
+	-webkit-transition: margin-left 0.5s;
+	cursor: pointer;
+}
+li:hover {
+	margin-left: 30px;
+}
+.li-selected {
+	margin-left: 30px;
+	background: -webkit-linear-gradient(left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.2));
+}
+.ingredients-li {}
+.directions-li {}
+h1,h2,h3 {
+	font-family: cursive;
+	background: -webkit-linear-gradient(left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+}
+h2 {
+	padding-left: 10px;
+}
+h3 {
+	background: none;
+	padding-left: 10px;
+}
+section {
+	border: 2px solid black;
+	border-radius: 10px;
+	box-shadow: 10px 10px 5px #888888;
+	margin: 20px 20px 20px 20px;
+}
+#teaser {
+	background-color: #BBBBFF;
+	min-height: 250px;
+	padding-right: 10px;
+}
+.section-head {
+	height: 100px;
+}
+.img-container {
+	float: left;
+	border: 2px solid #666666;
+	border-radius: 100%;
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+	margin: -2px 20px -2px -2px;
+}
+#teaser .img-container {
+	width: 250px;
+	height: 250px;
+}
+#teaser .img-container img {
+	display: block;
+	max-height: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+#ingredients {
+	background-color: #BBFFBB;
+	padding-right: 20px;
+}
+#ingredients h2 {
+	left: 10px;
+}
+#ingredients strong {
+	font-size: 1.2em;
+	margin-right: 12px;
+}
+#directions {
+	background-color: #FFFFBB;
+	padding-right: 20px;
+}
+#directions ol img {
+	border: 2px solid #666666;
+	border-radius: 5px;
+	margin-bottom: 12px;
+	height: 60%; 
+	width: 60% 
+}
+.annotation {
+	font-size: 0.8em;
+	margin-left: 20px;
+	margin-top: 6px;
+	color: #444444;
+}
+.header-spacer {
+	height: 30px;
+}
+.sticky-header {
+	position: fixed;
+	background-color: #BBFFFF;
+	border: 2px solid black;
+	border-radius: 10px;
+	margin: 0px 20px 20px 0px;
+	padding: 4px 4px 4px 4px;
+}
+.completion-label {
+	float: left;
+	font-size: 0.8em;
+	padding: 4px 4px 4px 4px;
+}
+.ingredients-complete {
+	float: left;
+	font-size: 0.8em;
+	padding: 4px 4px 4px 4px;
+	margin-right: 20px;
+}
+.directions-complete {
+	float: left;
+	font-size: 0.8em;
+	padding: 4px 4px 4px 4px;
+	margin-right: 20px;
+}
+.remove-image-button {
+	border-radius: 5px;
+	float: left;
+	padding: 4px 4px 4px 4px;
+	font-size: 0.8em;
+	background-color: #777777;
+	color: #ffffff;
+	-webkit-transition: background-color 0.2s;
+	cursor: pointer;
+}
+.remove-image-button:hover {
+	background-color: #222222;
+}
